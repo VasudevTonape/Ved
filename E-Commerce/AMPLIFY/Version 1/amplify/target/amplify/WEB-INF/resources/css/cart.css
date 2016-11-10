@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bg-img {
+	width: 100%;
+	background-position: absolute;
+	background-attachment: fixed;
+	background-image: url('../images/cart.jpg');
+	background-size: cover;
+}
+
+.title {
+	padding: 25px 0px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+	border-radius: 0px;
+}
+
+.cart-table {
+	padding: 25px 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: left;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 135px;
+	border-radius: 0px;
+}
+
+legend {
+	text-align: center;
+	color: white;
+}

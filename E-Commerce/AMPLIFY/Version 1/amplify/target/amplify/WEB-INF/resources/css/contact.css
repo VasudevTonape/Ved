@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bg-img {
+	background-image: url("../images/contact.jpg");
+
+	background-size: cover;
+}
+
+.title {
+
+	padding: 25px 0px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+	border-radius: 0px;
+}
+
+.img-txt {
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 30px 50px 0px 100px;
+	margin-bottom: 30px;
+}
+
+.address {
+	padding: 40px 0px 70px 600px;
+}
+
+.imgforc {
+	float: left;
+	padding: 0px 50px 0px 100px;
+}
