@@ -1,0 +1,8 @@
+com\spring\DAO\BookDaoImpl.class
+com\spring\Service\BookService.class
+com\spring\Controller\BookController.class
+com\spring\Model\Category.class
+com\spring\Controller\HomeController.class
+com\spring\DAO\BookDao.class
+com\spring\Model\Book.class
+com\spring\Service\BookServiceImpl.class
