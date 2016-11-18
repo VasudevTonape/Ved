@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bg-img {
+	width: 100%;
+	background-position: absolute;
+	background-attachment: fixed;
+	background-image: url('../images/productForm.jpg');
+	background-size: cover;
+}
+
+.productForm {
+	margin-top: 150px;
+	margin-bottom: 129px;
+	text-align: justify;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 60px 70px;
+	color: white;
+}
+
+.btn {
+	background-color: rgba(0, 0, 0, 0);
+	margin-top: 5%;
+	color: white;
+	border: 1px solid white;
+}
+
+.btn:hover {
+	background-color: #cc0000;
+	color: white;
+	border: 1px solid #cc0000;
+}
+
+.productForm>form>legend {
+	margin-bottom: 7%;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+.form-control {
+	border-radius: 2px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+.form-control {
+	border-radius: 2px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+.form-control:focus {
+	border: 2px solid white;
+	box-shadow: 0 0 10px white;
+}
+
+.categories {
+	text-align: justify;
+	border: 1px solid white;
+	padding: 10px 20px;
+}

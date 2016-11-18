@@ -1,0 +1,80 @@
+body {
+	height: 100%;
+	background-color: #222
+}
+
+html {
+	height: 100%;
+}
+
+@media ( min-width :767px) {
+	/* BEFORE collapsing styles in the below class */
+	.navbar-inverse {
+		margin: 0px;
+		padding: 15px;
+		background: rgba(0, 0, 0, 0.7);
+		-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		transition: background .5s ease-in-out, padding .5s ease-in-out;
+		border: none;
+	}
+
+	/* AFTER collapsing styles in the below class */
+	.top-nav-collapse {
+		padding: 0px;
+		background: rgba(0, 0, 0, 0.7);
+		border: none;
+	}
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+/* defined by me */
+
+/* for the carourel to fit the width of the browser */
+.carousel-indicators>li {
+	border: none;
+	background-color: black;
+}
+
+/*  color of the text and background without scroll - link*/
+.navbar-default .navbar-nav>li>a {
+	color: #aaaaaa; /* grey color*/ /*Change active text color here*/
+	background: rgba(0, 0, 0, 0);
+}
+
+/* color of the text and background without scroll - hover*/
+.navbar-default .navbar-nav>li>a:hover {
+	color: white; /*Sets the text hover color on navbar*/
+	background: rgba(0, 0, 0, 0);
+}
+
+/* color of the text and background without scroll - focus*/
+.navbar-default .navbar-nav>li>a:focus {
+	color: #aaaaaa; /*Sets the text hover color on navbar*/
+	background: rgba(0, 0, 0, 0);
+}
+
+/* color of the text and background without scroll - active*/
+.navbar-default .navbar-nav>li>a:active {
+	color: white; /*Sets the text hover color on navbar*/
+	background: rgba(0, 0, 0, 0);
+}
+
+/* logo link */
+.navbar-default .navbar-header>a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-header>a:focus {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-header>a:active {
+	color: white;
+	text-decoration: none;
+}
