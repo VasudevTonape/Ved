@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bg-img {
+	background-image: url("../images/about.jpg");
+	background-size: cover;
+	background-position: absolute;
+	background-attachment: fixed;
+}
+
+.title {
+	clear: both;
+	padding: 25px 0px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+	border-radius: 0px;
+}
+
+.title2 {
+	clear: both;
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: justify;
+	color: white;
+	margin: 30px 0px;
+	border-radius: 0px;
+}
